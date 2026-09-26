@@ -1,0 +1,21 @@
+{
+  "name": "@usemailx/mcp",
+  "version": "0.1.0",
+  "description": "MCP server exposing the MailX API (send email, domains, templates, webhooks) to AI agents.",
+  "type": "module",
+  "bin": { "mailx-mcp": "dist/index.js" },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "@types/node": "^22.5.0"
+  },
+  "license": "MIT"
+}
