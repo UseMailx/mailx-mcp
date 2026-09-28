@@ -1,6 +1,6 @@
 {
   "name": "@usemailx/mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MCP server exposing the MailX API (send email, domains, templates, webhooks) to AI agents.",
   "type": "module",
   "bin": { "mailx-mcp": "dist/index.js" },
